@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "name": "code-mu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Zavrazhneva/code-mu-tasks.git",
+  "author": "Zavrazhneva <zavrazhneva.a@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node_modules/.bin/parcel index.html",
+    "build": "node_modules/.bin/parcel build index.html"
+  }
+}
