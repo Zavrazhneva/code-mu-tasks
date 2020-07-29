@@ -8,16 +8,17 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <div>
+    <div class="taskWrapper">
       <div class="task">
         <p class="title">Задача1</p>
         <p class="descr">
           Напишите скрипт, который будет находить корни квадратного уравнения. Для этого сделайте 3
           инпута, в которые будут вводиться коэффициенты уравнения. ax2 + bx + c = 0
         </p>
-        <div class="taskBody">
+        <div class="taskBody taskBody1">
           <label for="a">a</label>
           <input id="a" type="text" name="a" />
           <label for="b">b</label>
@@ -27,6 +28,60 @@
           <span>result:</span>
           <span id="result"></span>
         </div>
+      </div>
+      <div class="task">
+        <p class="title">Задача2</p>
+        <p class="descr">
+          Даны 3 инпута. В них вводятся числа. Проверьте, что эти числа являются тройкой Пифагора:
+          квадрат самого большого числа должен быть равен сумме квадратов двух остальных.
+          Например 4 3 5
+        </p>
+        <div class="taskBody taskBody2">
+          <label for="a2">a</label>
+          <input id="a2" type="text" name="a" />
+          <label for="b2">b</label>
+          <input id="b2" type="text" name="b" />
+          <label for="c2">c</label>
+          <input id="c2" type="text" name="c" />
+          <span>result:</span>
+          <span id="result2"></span>
+        </div>
+      </div>
+      <div class="task">
+        <p class="title">Задача3</p>
+        <p class="descr">
+          Дан инпут и кнопка. В инпут вводится число.
+          По нажатию на кнопку выведите список делителей этого числа.
+        </p>
+        <form type="submit" class="taskBody taskBody3">
+          <label for="a3">a</label>
+          <input id="a3" type="text" name="a3" />
+          <button type="submit">Результат</button>
+          <span>result:</span>
+          <span id="result3"></span>
+        </form>
+      </div>
+      <div class="task">
+        <p class="title">Задача4</p>
+        <p class="descr">
+          Даны 2 инпута и кнопка. В инпуты вводятся числа.
+          По нажатию на кнопку выведите список общих делителей этих двух чисел.
+        </p>
+        <form type="submit" class="taskBody taskBody4">
+          <label for="a4">a</label>
+          <input id="a4" type="text" name="a" />
+          <label for="b4">b</label>
+          <input id="b4" type="text" name="b" />
+          <button  type="submit">Результат</button>
+          <span>result:</span>
+          <span id="result4"></span>
+        </form>
+      </div>
+      <div class="test">
+        <div class="testItem"></div>
+        <div class="testItem"></div>
+        <div class="testItem"></div>
+        <div class="helper"></div>
       </div>
     </div>
     <script src="index.js"></script>
